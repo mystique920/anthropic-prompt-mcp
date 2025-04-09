@@ -1,0 +1,40 @@
+{
+  "name": "mcp-anthropic",
+  "version": "0.1.0",
+  "description": "An MCP server providing tools to interact with Anthropic APIs (generate_prompt, improve_prompt, templatize_prompt)",
+  "private": false,
+  "type": "module",
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "watch": "tsc --watch",
+    "start": "node build/server.js",
+    "inspector": "npx @modelcontextprotocol/inspector build/server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.9.0",
+    "axios": "1.8.4",
+    "dotenv": "^16.4.5",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^6.1.1",
+    "@types/node": "^20.11.24",
+    "typescript": "^5.3.3"
+  },
+  "keywords": [
+    "mcp",
+    "claude",
+    "anthropic",
+    "prompt engineering",
+    "ai"
+  ],
+  "author": "mystique920",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
