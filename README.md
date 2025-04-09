@@ -28,6 +28,7 @@ Provides the following tools:
         ANTHROPIC_KEY=your_anthropic_api_key_here
         ```
     *   Ensure this file is **not** committed to version control (it should be covered by `.gitignore`).
+    *   **Note for LibreChat Integration:** For specific instructions on setting up and running this server as a child process within LibreChat (including API key handling), please refer to the `documentation.md` file.
 
 ## Running the Server
 

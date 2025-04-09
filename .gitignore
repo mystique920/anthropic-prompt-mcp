@@ -21,3 +21,6 @@ node_modules/
 run.sh
 .windsurfrules
 .cursor/
+
+# macOS specific
+.DS_Store
